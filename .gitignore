@@ -4,3 +4,4 @@ node_modules/
 .idea
 notes.md
 firebase-config.js
+build/

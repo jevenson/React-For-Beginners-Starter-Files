@@ -96,6 +96,7 @@ export default class App extends Component {
                     order={ this.state.order }
                     removeFromOrder={ this.removeFromOrder } />
                 <Inventory
+                    storeId={ this.props.match.params.storeId }
                     fishes={ this.state.fishes }
                     addFish={ this.addFish }
                     loadSampleFishes={ this.loadSampleFishes }
